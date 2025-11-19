@@ -1,11 +1,20 @@
+.projecten{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
 .schoolsite{
-    border: 2px solid aqua;
+    border: 2px solid;
+    border-style: dashed;
     width: 350px;
     height: 450px;
-    
-   
-    
+    position: relative;
+    justify-self: center;
+    flex-wrap: nowrap;
 }
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -17,5 +26,14 @@
     padding: 8px 15px;
     text-decoration: none;
     border-radius: 4px;
-    
+}
+
+.githubicon {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 32px;
+    background-image: url('/img/github.png');
+    background-size: cover;
 }
