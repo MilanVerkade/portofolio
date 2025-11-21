@@ -9,9 +9,8 @@
     border: 2px solid;
     border-style: dashed;
     width: 350px;
-    height: 450px;
+    height: 460px;
     position: relative;
-    justify-self: center;
     flex-wrap: nowrap;
 }
 
